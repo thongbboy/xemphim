@@ -1,0 +1,51 @@
+[v-cloak] {
+    display: none;
+}
+
+.header-highlight {
+    color: #ff4954;
+}
+
+.info {
+    padding: 1.5rem;
+}
+
+.container {
+    padding-top: 1rem;
+}
+
+#videos {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+#videos video {
+    flex: 1 1 50%;
+    padding: 0;
+    min-width: 0;
+}
+
+.info {
+    display: block;
+    z-index: 100;
+    background-color: white;
+    text-align: left;
+    color: black;
+}
+
+.info strong {
+    color: black;
+}
+
+.has-text-centered h2 {
+    color: black;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.note p {
+    text-align: center;
+    margin-top: 50px;
+}
